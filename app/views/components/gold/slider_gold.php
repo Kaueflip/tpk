@@ -1,31 +1,18 @@
-<div class="container-fluid p-0">
-  <div class="swiper goldPageSlider">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="../assets/img/couple.png" alt="Casal em hotel">
+<section class="section slider-section" id="hotelSlider">
+  <div class="container-fluid slider-column">
+    <div class="swiper swiper-slider">
+      <div class="swiper-wrapper">
+        <img class="swiper-slide" src="../assets/img/gold/piscina_01.jpg" alt="Swiper">
+        <img class="swiper-slide" src="../assets/img/gold/fachada.jpg" alt="Swiper">
+        <img class="swiper-slide" src="../assets/img/gold/lapis.jpg" alt="Swiper">
+        <img class="swiper-slide" src="../assets/img/gold/mesas.jpg" alt="Swiper">
+        <img class="swiper-slide" src="../assets/img/gold/bolo.jpg" alt="Swiper">
+        <img class="swiper-slide" src="../assets/img/gold/piscina_01.jpg" alt="Swiper">
+
       </div>
-      <div class="swiper-slide">
-        <img src="../assets/img/couple.png" alt="Casal em hotel">
-      </div>
-      <div class="swiper-slide">
-        <img src="../assets/img/couple.png" alt="Casal em hotel">
-      </div>
-      <div class="swiper-slide">
-        <img src="../assets/img/couple.png" alt="Casal em hotel">
-      </div>
-      <div class="swiper-slide">
-        <img src="../assets/img/couple.png" alt="Casal em hotel">
-      </div>
-      <div class="swiper-slide">
-        <img src="../assets/img/couple.png" alt="Casal em hotel">
-      </div>
-      <div class="swiper-slide">
-        <img src="../assets/img/couple.png" alt="Casal em hotel">
-      </div>
-      <div class="swiper-slide">
-        <img src="../assets/img/couple.png" alt="Casal em hotel">
-      </div>
+      <span class="swiper-pagination"></span>
+      <span class="swiper-button-prev"></span>
+      <span class="swiper-button-next"></span>
     </div>
-    <div class="swiper-pagination"></div>
   </div>
-</div>
+</section>

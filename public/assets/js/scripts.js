@@ -115,15 +115,46 @@ const offerSwiper = new Swiper(".offersSlider", {
     el: ".swiper-scrollbar",
   },
 });
-const goldPageSlider = new Swiper(".goldPageSlider", {
-  slidesPerView: "auto",
+const goldPageSlider = new Swiper(".swiper-slider", {
   centeredSlides: true,
-  spaceBetween: 30,
+  slidesPerView: 1,
+  grabCursor: true,
+  freeMode: false,
+  loop: true,
+  mousewheel: false,
+  keyboard: {
+    enabled: true
+  },
+
+  // Enabled autoplay mode
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false
+  },
+
+  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
+    dynamicBullets: false,
+    clickable: true
   },
+
+  // If we need navigation
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+  // Responsive breakpoints
+  breakpoints: {
+    640: {
+      slidesPerView: 1.25,
+      spaceBetween: 0
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 0
+    }
+  }
 });
 //booking navbar append
 document.addEventListener("DOMContentLoaded", function () {
