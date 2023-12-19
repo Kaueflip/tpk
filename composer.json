@@ -1,0 +1,17 @@
+{
+    "name": "finemult/tpkhoteis",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kauê Felipe Pereira",
+            "email": "web@finemult.com.br"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.4"
+    }
+}

@@ -1,0 +1,13 @@
+//Início de projeto PHP e Plates para as views
+//composer init ou composer install (github clones)
+// alterar o composer.json:
+
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+
+
+//php -S localhost:8000 -t public //iniciar o servidor e usa a pasta public
+// composer require (enter  e digitar plate para buscar)

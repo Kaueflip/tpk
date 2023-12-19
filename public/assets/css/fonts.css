@@ -1,0 +1,60 @@
+/* Open sans */
+
+@font-face {
+  font-family: "Open-sans";
+  src: url("../fonts/opensans/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Open-sans";
+  src: url("../fonts/opensans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open-sans";
+  src: url("../fonts/opensans/OpenSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Open-sans";
+  src: url("../fonts/opensans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Open-sans";
+  src: url("../fonts/opensans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Open-sans";
+  src: url("../fonts/opensans/OpenSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+/* Enriqueta */
+
+@font-face {
+  font-family: "Enriqueta";
+  src: url("../fonts/enriqueta/Enriqueta-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Enriqueta";
+  src: url("../fonts/enriqueta/Enriqueta-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Enriqueta";
+  src: url("../fonts/enriqueta/Enriqueta-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Enriqueta";
+  src: url("../fonts/enriqueta/Enriqueta-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
