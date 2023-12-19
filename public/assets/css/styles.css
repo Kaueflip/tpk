@@ -527,6 +527,7 @@ h5 {
   width: 100%;
   max-width: 1000px;
   align-self: center;
+  margin-bottom: var(--space-mobile);
 }
 .banner-hotels-layer {
   height: 100%;
@@ -543,9 +544,8 @@ h5 {
   justify-content: center;
 }
 .region-pros {
-  margin: var(--space-mobile);
-  /*   font-family: "Enriqueta";
- */
+  padding: 1rem;
+  margin: 2rem;
 }
 .region-pros p {
   margin-bottom: 0;
@@ -579,7 +579,7 @@ h5 {
 #hotelSlider img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 800px;
   object-fit: cover;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: -moz-crisp-edges;
@@ -590,13 +590,16 @@ h5 {
   height: auto;
   margin-inline: auto;
   padding-inline: 1.25rem;
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #hotelSlider .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 600px;
+  width: 100%;
 }
 #hotelSlider .swiper-button-next::after,
 #hotelSlider .swiper-button-prev::after {
@@ -610,8 +613,11 @@ h5 {
   height: 2rem;
   opacity: 0.75;
   border-radius: 50%;
-  color: var(--branco);
-  background: var(--preto);
+  color: var(--preto);
+  background: var(--branco);
+}
+#hotelSlider .swiper-wrapper {
+  padding-bottom: 0;
 }
 @media (min-width: 1400px) {
   /*
@@ -713,8 +719,6 @@ h5 {
     padding-top: 1rem;
   }
   .book {
-    /*     background-image: url(../img/banner-mobile.png);
- */
     padding-top: 0rem;
     padding-bottom: calc(var(--space-mobile) * 1.5);
     background: #fff;

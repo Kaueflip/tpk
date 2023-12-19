@@ -147,11 +147,11 @@ const goldPageSlider = new Swiper(".swiper-slider", {
   // Responsive breakpoints
   breakpoints: {
     640: {
-      slidesPerView: 1.25,
+      slidesPerView: 2.25,
       spaceBetween: 0
     },
     1024: {
-      slidesPerView: 2,
+      slidesPerView: 1.35,
       spaceBetween: 0
     }
   }
