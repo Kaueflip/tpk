@@ -115,47 +115,79 @@ const offerSwiper = new Swiper(".offersSlider", {
     el: ".swiper-scrollbar",
   },
 });
-const goldPageSlider = new Swiper(".swiper-slider", {
+const hotelImagesSlider = new Swiper(".hotelImagesSlider", {
   centeredSlides: true,
   slidesPerView: 1,
   grabCursor: true,
+  speed: 800,
   freeMode: false,
   loop: true,
   mousewheel: false,
   keyboard: {
     enabled: true
   },
-
-  // Enabled autoplay mode
   autoplay: {
     delay: 3000,
+    pauseOnMouseEnter: true,
     disableOnInteraction: false
   },
-
-  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: false,
     clickable: true
   },
-
-  // If we need navigation
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev"
   },
-  // Responsive breakpoints
   breakpoints: {
     640: {
-      slidesPerView: 2.25,
-      spaceBetween: 0
+      slidesPerView: 1.25,
+      spaceBetween: 0,
     },
     1024: {
       slidesPerView: 1.35,
-      spaceBetween: 0
+      spaceBetween: 0,
     }
   }
 });
+const hotelAccomodationsSlider = new Swiper(".hotelAccomodationsSlider", {
+  centeredSlides: true,
+  slidesPerView: 1,
+  grabCursor: true,
+  freeMode: false,
+  speed: 800,
+  loop: true,
+  mousewheel: false,
+  keyboard: {
+    enabled: true
+  },
+  /*   autoplay: {
+      delay: 3000,
+      pauseOnMouseEnter: true,
+      disableOnInteraction: false
+    }, */
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: false,
+    clickable: true
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1.5,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 80,
+    }
+  }
+});
+
 //booking navbar append
 document.addEventListener("DOMContentLoaded", function () {
   let prevScrollpos = window.scrollY || window.pageYOffset;
@@ -187,4 +219,16 @@ document.addEventListener("click", function (event) {
       navbar.click();
     }
   }
+});
+
+//open and close hotel secondary list
+document.addEventListener('DOMContentLoaded', function () {
+  var toggleButtons = document.querySelectorAll('.expandListBtn');
+  var hiddenLists = document.querySelectorAll('.listaAdicional');
+
+  toggleButtons.forEach(function (button, index) {
+    button.onclick = function () {
+      hiddenLists[index].classList.toggle('hidden');
+    };
+  });
 });

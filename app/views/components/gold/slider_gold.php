@@ -1,6 +1,6 @@
-<section class="section slider-section" id="hotelSlider">
+<section class="section slider-section hotelSlider">
   <div class="container-fluid slider-column">
-    <div class="swiper swiper-slider">
+    <div class="swiper hotelImagesSlider">
       <div class="swiper-wrapper">
         <img class="swiper-slide" src="../assets/img/gold/piscina_01.jpg" alt="Swiper">
         <img class="swiper-slide" src="../assets/img/gold/lapis.jpg" alt="Swiper">

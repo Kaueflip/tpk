@@ -54,10 +54,10 @@
             nas <strong>redes sociais:</strong>
           </h5>
           <div class="d-flex">
-            <a href="#" class="me-3">
+            <a title="Facebook" href="https://www.facebook.com/tropikalyagold.hotel/" class="me-3">
               <img src="../assets/img/fb.svg" alt="Logo Negativo Tropikalya">
             </a>
-            <a href="#">
+            <a title="Instagram" href="https://www.instagram.com/tropikalya/">
               <img src="../assets/img/insta.svg" alt="Logo Negativo Tropikalya">
             </a>
           </div>
