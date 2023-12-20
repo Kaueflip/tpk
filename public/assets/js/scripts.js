@@ -162,11 +162,6 @@ const hotelAccomodationsSlider = new Swiper(".hotelAccomodationsSlider", {
   keyboard: {
     enabled: true
   },
-  /*   autoplay: {
-      delay: 3000,
-      pauseOnMouseEnter: true,
-      disableOnInteraction: false
-    }, */
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: false,
@@ -177,6 +172,10 @@ const hotelAccomodationsSlider = new Swiper(".hotelAccomodationsSlider", {
     prevEl: ".swiper-button-prev"
   },
   breakpoints: {
+    350: {
+      slidesPerView: 1.2,
+      spaceBetween: 16,
+    },
     640: {
       slidesPerView: 1.5,
       spaceBetween: 30,

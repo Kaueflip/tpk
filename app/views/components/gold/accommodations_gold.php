@@ -1,6 +1,6 @@
 <section class="section slider-section hotelSlider" id="accommodations">
   <div class="container title-wrapper">
-    <p>DESCUBRA NOSSAS ACOMODAÇÕES.</p>
+    <p>DESCUBRA NOSSAS</p>
     <h2>ACOMODAÇÕES.</h2>
   </div>
 
