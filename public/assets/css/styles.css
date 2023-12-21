@@ -1026,11 +1026,11 @@ h5 {
 
   .hotelSlider .swiper-button-next,
   .swiper-rtl .swiper-button-next {
-    right: 1.3rem;
+    right: 1rem;
   }
   .hotelSlider .swiper-button-prev,
   .swiper-rtl .swiper-button-prev {
-    left: 1.3rem;
+    left: 1rem;
   }
   .about-hotels-info h2 {
     font-size: 24px;

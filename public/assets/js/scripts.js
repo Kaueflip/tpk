@@ -133,7 +133,7 @@ const hotelImagesSlider = new Swiper(".hotelImagesSlider", {
   },
   pagination: {
     el: ".swiper-pagination",
-    dynamicBullets: false,
+    dynamicBullets: true,
     clickable: true
   },
   navigation: {
@@ -164,7 +164,7 @@ const hotelAccomodationsSlider = new Swiper(".hotelAccomodationsSlider", {
   },
   pagination: {
     el: ".swiper-pagination",
-    dynamicBullets: false,
+    dynamicBullets: true,
     clickable: true
   },
   navigation: {
